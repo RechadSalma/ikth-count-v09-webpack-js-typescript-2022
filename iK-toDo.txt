@@ -1,0 +1,53 @@
+20220218 - ikth-count-v09-webpack-js-typescript-2022
+version09: webpack / typescript / javascript
+================ LEFT OFF
+-
+================ DONE
+-check for any outdated modules & update if any
+
+-ensure page is working & on live server (netlify)
+	-master branch
+
+-configure netlify configuration file (netlify.toml) to redirect all static routes (js router) instead of using the typical _redirects file we used before
+	-you can set up your build too & etc
+
+================ TODO
+-install typescript & ensure all is working accordingly
+
+-install normalize.css
+
+-create three routes scaffold with any 3rd party javascript router
+	- / counter page
+	- /side whatever page
+	- /* error page
+
+-create layout for each route (eg. header / footer)
+
+-create links for all routes in header component
+
+-create counter component scaffold with display number & its three buttons (increment/decrement/reset)
+	-do not worry about the logic as we will do that with redux action creators
+
+-check up on snyk recommendations
+
+-git commit & see netlify deploy
+
+-README.md file
+
+================ COME BACK
+
+================ WRITE IN YOUR NOTE DOC
+
+================ NOTE TO SELF
+
+================ MISSION
+version09: webpack / typescript / javascript
+
+-three routes:
+	- / counter page with working buttons
+	- /side whatever page to show path pages work with react router
+	- /* error page
+
+================ PLAYGROUND
+
+
