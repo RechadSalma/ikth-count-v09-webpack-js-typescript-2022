@@ -1,7 +1,12 @@
 20220218 - ikth-count-v09-webpack-js-typescript-2022
 version09: webpack / typescript / javascript
 ================ LEFT OFF
--
+-typescript
+	-recap a bit
+	-create a dummy home page for the counter
+		-CCC having trouble importing & exporting with typescript within webpack.
+			-however I think I have found a solution with a comment that will ignore the line, but I am worried it says it might not be optimum, but anyway check it out otherwise continue ahead with it
+	
 ================ DONE
 -check for any outdated modules & update if any
 
@@ -11,10 +16,16 @@ version09: webpack / typescript / javascript
 -configure netlify configuration file (netlify.toml) to redirect all static routes (js router) instead of using the typical _redirects file we used before
 	-you can set up your build too & etc
 
-================ TODO
 -install typescript & ensure all is working accordingly
 
--install normalize.css
+- install bootstrap & sass & test
+
+================ TODO
+-typescript
+	-recap a bit
+	-create a dummy home page for the counter
+	-practice some typescript
+	-maybe create counter logic for it instead
 
 -create three routes scaffold with any 3rd party javascript router
 	- / counter page
@@ -37,6 +48,7 @@ version09: webpack / typescript / javascript
 ================ COME BACK
 
 ================ WRITE IN YOUR NOTE DOC
+// @ts-ignore	=iK will ignore you .ts imports as this will error your build
 
 ================ NOTE TO SELF
 
