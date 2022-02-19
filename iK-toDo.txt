@@ -1,11 +1,11 @@
 20220218 - ikth-count-v09-webpack-js-typescript-2022
 version09: webpack / typescript / javascript
 ================ LEFT OFF
--typescript
-	-recap a bit
-	-create a dummy home page for the counter
-		-CCC having trouble importing & exporting with typescript within webpack.
-			-however I think I have found a solution with a comment that will ignore the line, but I am worried it says it might not be optimum, but anyway check it out otherwise continue ahead with it
+-create three routes scaffold with any 3rd party javascript router
+	- / counter page
+	- /side whatever page
+	- /* error page
+	-CCC maybe try out aviator module but you have to read the doc properly
 	
 ================ DONE
 -check for any outdated modules & update if any
@@ -20,13 +20,13 @@ version09: webpack / typescript / javascript
 
 - install bootstrap & sass & test
 
-================ TODO
 -typescript
 	-recap a bit
 	-create a dummy home page for the counter
 	-practice some typescript
 	-maybe create counter logic for it instead
 
+================ TODO
 -create three routes scaffold with any 3rd party javascript router
 	- / counter page
 	- /side whatever page
@@ -48,7 +48,17 @@ version09: webpack / typescript / javascript
 ================ COME BACK
 
 ================ WRITE IN YOUR NOTE DOC
-// @ts-ignore	=iK will ignore you .ts imports as this will error your build
+-typescript notes
+	- // @ts-ignore	=iK will ignore you .ts imports as this will error your build
+	- function name () :void {...} is for function you do not want returning anything
+	-const button: HTMLElement = event.target as HTMLElement;
+		- event.target are type EventTarget , but if you want to use dom properties & methods such as .textContent, than you need to set event.target type as HTMLElement as shown above
+		-the first HTMLElement is optional
+	- HTMLElement is a type that represents all DOM node elements
+		-iK ideally try to be specific if you can
+	-tsconfig.json file
+		- "lib": ["DOM"] 	= to use browswer window object
+		-"extends": "@tsconfig/node16/tsconfig.json",	=iK use to get the recommended settings for your nodejs version you are currently using
 
 ================ NOTE TO SELF
 
