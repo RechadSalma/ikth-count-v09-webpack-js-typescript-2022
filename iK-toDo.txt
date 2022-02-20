@@ -18,7 +18,10 @@ version09: webpack / typescript / javascript
 
 -install typescript & ensure all is working accordingly
 
-- install bootstrap & sass & test
+-install bootstrap & sass & test
+
+-create counter component scaffold with display number & its three buttons (increment/decrement/reset)
+	-do not worry about the logic as we will do that with redux action creators
 
 -typescript
 	-recap a bit
@@ -26,7 +29,22 @@ version09: webpack / typescript / javascript
 	-practice some typescript
 	-maybe create counter logic for it instead
 
+-do remaining COME BACK
+
+-do lighthouse testing
+
+-do remaining WRITE IN YOUR NOTE DOC
+
+-check if repo name needs changing
+
+-README.md file
+
 ================ TODO
+-git commit & see netlify deploy
+
+================ COME BACK
+
+================ SKIPPED TODOS
 -create three routes scaffold with any 3rd party javascript router
 	- / counter page
 	- /side whatever page
@@ -36,16 +54,7 @@ version09: webpack / typescript / javascript
 
 -create links for all routes in header component
 
--create counter component scaffold with display number & its three buttons (increment/decrement/reset)
-	-do not worry about the logic as we will do that with redux action creators
-
 -check up on snyk recommendations
-
--git commit & see netlify deploy
-
--README.md file
-
-================ COME BACK
 
 ================ WRITE IN YOUR NOTE DOC
 -typescript notes
@@ -61,6 +70,8 @@ version09: webpack / typescript / javascript
 		-"extends": "@tsconfig/node16/tsconfig.json",	=iK use to get the recommended settings for your nodejs version you are currently using
 
 ================ NOTE TO SELF
+-SKIPPED js router because modules was either not working or not being maintained which is a concern for the long run
+	-iK best to use your create Js router
 
 ================ MISSION
 version09: webpack / typescript / javascript
